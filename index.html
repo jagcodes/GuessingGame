@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+      <link rel = "stylesheet" type="text/css" href="main.css">
+      <link href="https://fonts.googleapis.com/css?family=Monoton|Quicksand|Raleway|Raleway+Dots|Pacifico|Molle:400i|Lobster+Two" rel="stylesheet">
+
+  </head>
+  <body>
+
+<div id='app'>
+    <div id="temp"></div>
+    <div id='header'>
+        <h1 id='title'>GUESSING GAME</h1>
+        <h2 id = 'message'>Guess a number between 1-100</h2>
+        <p id='feedback'>You got this!</p>
+    </div>
+    
+    <div id='userinput'>
+        <div id = "form">
+            <input type="text" id="player-input" class = 'disable' autofocus>
+            <button id="submit" class = 'disable'>GO</button>
+        </div>
+    </div>
+    
+    <div id='previousentries'>
+        <div class='previousentry'><p id='entry1'>&nbsp;</p></div>
+        <div class='previousentry'><p id='entry2'>&nbsp;</p></div>
+        <div class='previousentry'><p id='entry3'>&nbsp;</p></div>
+        <div class='previousentry'><p id='entry4'>&nbsp;</p></div>
+        <div class='previousentry'><p id='entry5'>&nbsp;</p></div>
+    </div>
+    
+    <div id='extrabuttons'>
+            <button class = 'smallbtn' id = "reset" type="button" >RESET</button>
+            <button class = 'smallbtn disable' id = "hint" type="button" >HINT</button>
+        
+    </div>
+    
+    <div id='footer'>
+    
+    </div>
+
+</div>
+
+<script src = "../../../../Documents/jquery-3.2.1.js"></script>
+<script src="GuessingGame.js"></script>
+  </body>
+</html>
