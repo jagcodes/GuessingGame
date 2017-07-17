@@ -119,8 +119,6 @@ function makeAGuess (game) {
     $('#player-input').val("");
     var output = game.playersGuessSubmission(parseInt(guess,10));
     $('#feedback').text(output);
-    console.log(output);
-    console.log(game.winningNumber)
 }
 
 $(document).ready(function () {
